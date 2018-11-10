@@ -12,6 +12,7 @@
 		35F550A521971D75000AC302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F550A321971D75000AC302 /* Main.storyboard */; };
 		35F550A721971D76000AC302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F550A621971D76000AC302 /* Assets.xcassets */; };
 		35F550AA21971D76000AC302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F550A821971D76000AC302 /* LaunchScreen.storyboard */; };
+		35F550B221972681000AC302 /* BluetoothTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F550B121972681000AC302 /* BluetoothTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		35F550A621971D76000AC302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F550A921971D76000AC302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35F550AB21971D76000AC302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F550B121972681000AC302 /* BluetoothTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				35F5509F21971D75000AC302 /* AppDelegate.swift */,
 				35F550A121971D75000AC302 /* ViewController.swift */,
+				35F550B121972681000AC302 /* BluetoothTableViewCell.swift */,
 				35F550A321971D75000AC302 /* Main.storyboard */,
 				35F550A621971D76000AC302 /* Assets.xcassets */,
 				35F550A821971D76000AC302 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F550B221972681000AC302 /* BluetoothTableViewCell.swift in Sources */,
 				35F550A221971D75000AC302 /* ViewController.swift in Sources */,
 				35F550A021971D75000AC302 /* AppDelegate.swift in Sources */,
 			);
